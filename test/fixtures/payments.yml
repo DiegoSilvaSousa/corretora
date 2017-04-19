@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  due_date: 2017-04-16
+  plot_value: 9.99
+  status_payment: MyString
+  user: one
+  insurance: one
+  proposal: one
+
+two:
+  due_date: 2017-04-16
+  plot_value: 9.99
+  status_payment: MyString
+  user: two
+  insurance: two
+  proposal: two

@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  start_date: 2017-04-16
+  final_date: 2017-04-16
+  apolice_number: MyString
+  has_sinister: 1
+  status_apolice: 1
+  id_productor: 1
+  user: one
+
+two:
+  start_date: 2017-04-16
+  final_date: 2017-04-16
+  apolice_number: MyString
+  has_sinister: 1
+  status_apolice: 1
+  id_productor: 1
+  user: two

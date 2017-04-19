@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type_insurance: 1
+  objcet_insurance: MyString
+  net_prize: 9.99
+  charges: 9.99
+  costs: 9.99
+  iof: 9.99
+  total: 9.99
+  type_payment: 1
+  number_payment: 
+  comission_percentage: 9.99
+  observation: MyString
+  status: 1
+  individual: one
+  company: one
+  user: one
+
+two:
+  type_insurance: 1
+  objcet_insurance: MyString
+  net_prize: 9.99
+  charges: 9.99
+  costs: 9.99
+  iof: 9.99
+  total: 9.99
+  type_payment: 1
+  number_payment: 
+  comission_percentage: 9.99
+  observation: MyString
+  status: 1
+  individual: two
+  company: two
+  user: two

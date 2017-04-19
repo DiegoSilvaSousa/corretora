@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  birthday_date: 2017-04-16
+  genre: 1
+  marital_status: 1
+  profession: MyString
+  number_cpf: MyString
+  number_identify: MyString
+  number_driver: MyString
+  category_driver: 1
+  expiration_date: 2017-04-16
+  year_driver: MyString
+  client: one
+
+two:
+  name: MyString
+  birthday_date: 2017-04-16
+  genre: 1
+  marital_status: 1
+  profession: MyString
+  number_cpf: MyString
+  number_identify: MyString
+  number_driver: MyString
+  category_driver: 1
+  expiration_date: 2017-04-16
+  year_driver: MyString
+  client: two

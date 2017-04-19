@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  number_sinister: MyString
+  cnh_sent: false
+  bo_send: false
+  accident_with_vicitims: false
+  location_of_the_clain: MyText
+  id_mechanical: MyString
+  observations_mechanical: MyText
+  observations_third_parties: MyText
+  date_sinister: 2017-04-16
+  backup_car: false
+  days_backup_car: 
+  completed_sinister: 1
+  insurance: one
+  individual: one
+
+two:
+  number_sinister: MyString
+  cnh_sent: false
+  bo_send: false
+  accident_with_vicitims: false
+  location_of_the_clain: MyText
+  id_mechanical: MyString
+  observations_mechanical: MyText
+  observations_third_parties: MyText
+  date_sinister: 2017-04-16
+  backup_car: false
+  days_backup_car: 
+  completed_sinister: 1
+  insurance: two
+  individual: two
