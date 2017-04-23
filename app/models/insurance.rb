@@ -4,5 +4,5 @@ class Insurance < ApplicationRecord
   enum has_sinister:[:sim, :não]
   enum status_apolice: [:active, :expirated, :canceled]
 
-  validates_presence_of :start_date, :final_date, :apolice_number
+  validates_presence_of :apolice_number
 end

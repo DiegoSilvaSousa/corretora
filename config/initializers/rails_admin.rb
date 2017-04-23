@@ -65,6 +65,15 @@ RailsAdmin.config do |config|
 
     config.model Client do
       visible false
+      field :addresses do
+        inverse_of :clients
+        nested_form false
+      end
+      field :phones do
+        inverse_of :clients
+        nested_form false
+      end
+
     end
 
     config.model Phone do
@@ -75,34 +84,6 @@ RailsAdmin.config do |config|
       visible false
     end
   end
-
-
-
-
-
-
-=begin
-  config.model User do
-      create do
-        field :name
-        field :kind
-        field :status
-        field :email
-        field :encrypted_password
-        field :notes
-      end
-
-      edit do
-        field :name
-        field :kind
-        field :status
-        field :email
-        field :encrypted_password
-        field :notes
-      end
-
-  end
-=end
 
   config.model User do
     navigation_icon 'fa fa-user-circle'
@@ -134,7 +115,6 @@ RailsAdmin.config do |config|
   end
 
   config.model Address do
-    navigation_icon 'fa fa-home'
       create do
         field :type_address
         field :name
@@ -155,6 +135,24 @@ RailsAdmin.config do |config|
         field :city
         field :state
         field :code_postal
+      end
+  end
+
+  config.model Client do
+      create do
+        field :email
+        field :active
+        field :imported
+        field :observations
+        field :score
+      end
+
+      edit do
+        field :email
+        field :active
+        field :imported
+        field :observations
+        field :score
       end
   end
 

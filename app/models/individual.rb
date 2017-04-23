@@ -5,7 +5,7 @@ class Individual < ApplicationRecord
 
   belongs_to :client
 
-  validates_presence_of :name, :birthday_date, :genre, :marital_status, :profession, :number_cpf, :number_identify
+  validates_presence_of :name, :genre, :marital_status, :profession, :number_cpf, :number_identify
 
   accepts_nested_attributes_for :client
 

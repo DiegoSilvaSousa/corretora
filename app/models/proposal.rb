@@ -9,4 +9,7 @@ class Proposal < ApplicationRecord
 
   validates_presence_of :type_insurance, :objcet_insurance, :net_prize, :charges, :costs, :iof, :total, :type_payment, :number_payment,
                         :comission_percentage
+
+
+
 end
